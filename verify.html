@@ -46,7 +46,7 @@ $token=$json['data']['token'];
 $msgg=$json['message'];
 if($msgg=='OTP_VERIFIED'){
 	echo "<div class='success'>Otp Verified successfully</div>
-	<form method='GET' action='bank.php'>
+	<form method='GET' action='bank.html'>
 	<input type='hidden' name='token' value='$token'>
 	<input type='hidden' name='bank' value='$bank'>
 	<input type='hidden' name='ifsc' value='$ifsc'>
@@ -57,7 +57,7 @@ if($msgg=='OTP_VERIFIED'){
 echo"<meta http-equiv='refresh' content='1;url=tg://resolve?domain=technical_paisa_xyz'>";
 }
 
-?><a href="https://telegram.dog/technical_paisa_xyz" class="telBtn shine">
+?><a href="https://telegram.dog/hackeralokrenew" class="telBtn shine">
 <i class="fa-regular fa-paper-plane"></i>
 <span>Join telegram channel</span>
 </a>
