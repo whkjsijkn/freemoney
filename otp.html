@@ -41,7 +41,7 @@ $json=json_decode($output,true);
 $msg=$json['message'];
 if($msg=='OTP_SENT'){
 	echo "<div class='success'>Otp sent successfully!</div>";
-echo "<form method='GET' action='verify.php'>
+echo "<form method='GET' action='verify.html'>
 <input type='hidden' name='mo' value='$mo'>
 <input type='hidden' name='bank' value='$bank'>
 <input type='hidden' name='ifsc' value='$ifsc'>
